@@ -7,7 +7,7 @@ import com.proyecto.data.MovieData;
 
 public final class Movie {
 
-    static public ArrayList<MovieData> getListByConsole(Scanner scn) {
+    static public ArrayList<MovieData> getList(Scanner scn) {
 
 	System.out.println("How many movies do you want to register: ");
 	int numberMovies = 0;

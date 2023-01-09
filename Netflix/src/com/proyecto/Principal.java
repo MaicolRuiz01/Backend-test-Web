@@ -10,7 +10,7 @@ import com.proyecto.movie.Movie;
 public class Principal {
 
     static Scanner scn = new Scanner(System.in);
-    static ArrayList<MovieData> movies = Movie.getListByConsole(scn);
+    static ArrayList<MovieData> movies = Movie.getList(scn);
     static ArrayList<SerieData> series = recordSeries(scn);
 
     public static void main(String[] args) {
