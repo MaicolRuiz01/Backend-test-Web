@@ -2,62 +2,62 @@ package com.proyecto.data;
 
 public class Displayable {
 
-	protected String title;
-	protected String gender;
-	protected String creator;
-	protected double duration;
-	protected boolean viewed;
-	
-	public Displayable() {
-		super();
-	}
+    protected String title;
+    protected String gender;
+    protected String creator;
+    protected double duration;
+    protected boolean viewed;
 
-	public Displayable(String title, String gender, String creator, double duration, boolean viewed) {
-		super();
-		this.title = title;
-		this.gender = gender;
-		this.creator = creator;
-		this.duration = duration;
-		this.viewed = viewed;
-	}
+    public Displayable() {
+	super();
+    }
 
-	public String getTitle() {
-		return title;
-	}
+    public Displayable(String title, String gender, String creator, double duration, boolean viewed) {
+	super();
+	this.title = title;
+	this.gender = gender;
+	this.creator = creator;
+	this.duration = duration;
+	this.viewed = viewed;
+    }
 
-	public void setTitle(String title) {
-		this.title = title;
-	}
+    public String getTitle() {
+	return title;
+    }
 
-	public String getGender() {
-		return gender;
-	}
+    public void setTitle(String title) {
+	this.title = title;
+    }
 
-	public void setGender(String gender) {
-		this.gender = gender;
-	}
+    public String getGender() {
+	return gender;
+    }
 
-	public String getCreator() {
-		return creator;
-	}
+    public void setGender(String gender) {
+	this.gender = gender;
+    }
 
-	public void setCreator(String creator) {
-		this.creator = creator;
-	}
+    public String getCreator() {
+	return creator;
+    }
 
-	public double getDuration() {
-		return duration;
-	}
+    public void setCreator(String creator) {
+	this.creator = creator;
+    }
 
-	public void setDuration(double duration) {
-		this.duration = duration;
-	}
+    public double getDuration() {
+	return duration;
+    }
 
-	public boolean isViewed() {
-		return viewed;
-	}
+    public void setDuration(double duration) {
+	this.duration = duration;
+    }
 
-	public void setViewed(boolean viewed) {
-		this.viewed = viewed;
-	}
+    public boolean isViewed() {
+	return viewed;
+    }
+
+    public void setViewed(boolean viewed) {
+	this.viewed = viewed;
+    }
 }
