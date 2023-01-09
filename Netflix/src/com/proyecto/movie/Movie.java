@@ -43,7 +43,7 @@ public final class Movie {
 	return movies;
     }
 
-    static public void printToConsole(ArrayList<MovieData> movies) {
+    static public void printList(ArrayList<MovieData> movies) {
 	movies.forEach(movie -> {
 	    System.out.println(movie.toString());
 	});

@@ -14,7 +14,7 @@ public class Principal {
     static ArrayList<SerieData> series = recordSeries(scn);
 
     public static void main(String[] args) {
-	Movie.printToConsole(movies);
+	Movie.printList(movies);
 	Movie.printMostRecent(movies);
 	printSeries(series);
 	printMostSeasonsSerie(series);
