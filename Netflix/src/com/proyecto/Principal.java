@@ -50,7 +50,6 @@ public class Principal {
 	    SerieData newSerie = new SerieData(title, numberSeasons, gender, creator, duration, seen);
 	    series.add(newSerie);
 	}
-	scn.close();
 
 	return series;
     }
