@@ -51,7 +51,7 @@ public class Serie {
 		int moreSeasonsIndex = 0;
 
 		for (int i = 0; i < series.size(); i++) {
-		    if (series.get(i).getNumberSeasons() <= series.get(moreSeasonsIndex).getNumberSeasons()) {
+		    if (series.get(i).getNumberSeasons() >= series.get(moreSeasonsIndex).getNumberSeasons()) {
 		    	moreSeasonsIndex = i;
 		    }
 		}
